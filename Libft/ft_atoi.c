@@ -19,7 +19,7 @@ static int	isspace(char c)
 	else if (c == '\f' || c == '\v' || c == ' ')
 		return (1);
 	else
-		return (1);
+		return (0);
 }
 
 int	ft_atoi(const char *str)
